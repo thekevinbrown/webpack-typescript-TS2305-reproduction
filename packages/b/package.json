@@ -1,0 +1,23 @@
+{
+  "name": "@reproduction/b",
+  "version": "0.0.1",
+  "author": "Kevin Brown <kevin.brown@techin.site>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "typings": "src/index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@reproduction/a": "0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  }
+}

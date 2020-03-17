@@ -1,0 +1,23 @@
+{
+  "name": "webpack-typescript-TS2305-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thekevinbrown/webpack-typescript-TS2305-reproduction.git",
+  "author": "Kevin Brown <kevin.brown@techin.site>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:tsc": "lerna run build",
+    "build:webpack": "webpack",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "3.20.2",
+    "ts-loader": "6.2.1",
+    "webpack": "4.42.0",
+    "webpack-cli": "3.3.11"
+  }
+}
